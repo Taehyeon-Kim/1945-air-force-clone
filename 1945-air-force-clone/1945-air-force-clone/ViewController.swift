@@ -22,14 +22,19 @@ class ViewController: UIViewController {
         return playerView
     }()
     
-    var bTimer: Timer?
+    var bulletTimer: Timer?
+    var enemyTimer: Timer?
 
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.isHidden = true
         
-        bTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(createBullets), userInfo: nil, repeats: true)
+        // 총알+적비행기 타이머
+        bulletTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(createBullets), userInfo: nil, repeats: true)
+        enemyTimer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(createEnemies), userInfo: nil, repeats: true)
+        
         
         self.view.addSubview(playerView) // 여기서 view는 ViewController가 가지고 있는 view!!
         
@@ -66,6 +71,23 @@ class ViewController: UIViewController {
             bulletView.frame = CGRect(x: self.playerView.frame.origin.x + 12.5, y: -150, width: 30, height: 30)
         })
         self.view.addSubview(bulletView)
+    }
+    
+    // 적 비행기 생성 함수
+    @objc func createEnemies() {
+        let enemyView = UIImageView(image: UIImage(named: "enemy"))
+
+        let minValue = self.view.frame.size.width / 8
+        let maxValue = self.view.frame.size.width - 20
+        let createPoint = UInt32(maxValue - minValue)
+        
+        enemyView.frame = CGRect(x: CGFloat(arc4random_uniform(createPoint)), y: -50, width: 50, height: 50)
+        
+        UIView.animate(withDuration: 3.0, animations: {
+            enemyView.frame = CGRect(x: enemyView.frame.origin.x, y: 950, width: 50, height: 50)
+        })
+        
+        self.view.addSubview(enemyView)
     }
 }
 
