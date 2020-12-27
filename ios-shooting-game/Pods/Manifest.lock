@@ -1,0 +1,16 @@
+PODS:
+  - IntroScreen (1.3.0)
+
+DEPENDENCIES:
+  - IntroScreen
+
+SPEC REPOS:
+  trunk:
+    - IntroScreen
+
+SPEC CHECKSUMS:
+  IntroScreen: ee7acc92081942c5c3fcf541e52676553a72e653
+
+PODFILE CHECKSUM: 4c920de216b8f27ef2e28a43d620da97a45074c9
+
+COCOAPODS: 1.10.0

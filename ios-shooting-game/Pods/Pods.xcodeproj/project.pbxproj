@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF7B21DA1A6928CEA3C59BD9B70C360 /* IntroDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230C48BD29668B5C8CD3E2C17BB32C0B /* IntroDataSource.swift */; };
+		18A2182EFD933B3ABAAB08D323E344EE /* IntroViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B163D95C42027BAD5C06ECE4212DD2BD /* IntroViewController+DataSource.swift */; };
+		1A2E4D7FDA69A47CB7AC0A84B457A266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1B09577F3F157E84379B1873EE3F51D2 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DBAC26669962C25D4DF783DC43ED7 /* IntroViewController.swift */; };
+		1CDFA7E3917E6BB72407A11F31E44A75 /* IntroViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C999B4B77249FF1F2CDFF60A229C911 /* IntroViewController+Delegate.swift */; };
+		2A3F61FF3FC009D5BFFFD2CAEFE67C5B /* IntroViewController+MovingPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DABD47E6C42BAB35315655B028AADA /* IntroViewController+MovingPages.swift */; };
+		2DE7A49C8F3FB5E6C3729F9D3764A5EC /* DefaultIntroPageViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1C0C626558F56AD2CE55D467FAD9F /* DefaultIntroPageViewController+Layout.swift */; };
+		38771C837CBD6B2075663746F5DC214A /* IntroViewController+ColorTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6053B2C2E2BAA7B50CE593658E5907D1 /* IntroViewController+ColorTransition.swift */; };
+		3B5945124B314E5E69E1148C88C0ED2C /* IntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A90CD901F62AE22A6B23ABE91ABF67 /* IntroPageViewController.swift */; };
+		5404A22DAD8F96478B07740C8C25B2C5 /* DefaultIntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47EDF52F0B99C811A3E93D290CE15B /* DefaultIntroPageViewController.swift */; };
+		98C485A7B83767B3FFBBA8DB7665E078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B243D4AC992AF2E4904C0AAF46FAA285 /* IntroScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6DB1B2290C4035DFAB72175579FED /* IntroScreen-dummy.m */; };
+		B2ACFB1992F51A0B7677E7256C617D23 /* IntroViewController+ScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0F85019E672B6A25E0023AB2BE5089 /* IntroViewController+ScrollViewDelegate.swift */; };
+		B6AA18BAE8D07D23967BAEAC2EAC0F33 /* Pods-1945-shooting-game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B8291C1FAA331DF6A914D683B0D26 /* Pods-1945-shooting-game-dummy.m */; };
+		C6B50CB3C77696F9D38A00209C4430E1 /* Pods-1945-shooting-game-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A2B32DEBCA94FAD94194D4E6FA54BB /* Pods-1945-shooting-game-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB4903E52838A089A1369D19D14BF1D /* IntroViewController+Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA34DBC28EB065987812E8A97FCBDD8 /* IntroViewController+Lifecycle.swift */; };
+		D4C5A1CBBDEFDD339673788F13A6497B /* IntroScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5F349E2352B14CA5AFDB938E726BE2 /* IntroScreen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E3EA084E8246679C02AB38CE8A339A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3F05E645C2E83B057FE06E922D12BD;
+			remoteInfo = IntroScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A2B32DEBCA94FAD94194D4E6FA54BB /* Pods-1945-shooting-game-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-1945-shooting-game-umbrella.h"; sourceTree = "<group>"; };
+		11A90CD901F62AE22A6B23ABE91ABF67 /* IntroPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntroPageViewController.swift; path = IntroScreen/Components/IntroPage/IntroPageViewController.swift; sourceTree = "<group>"; };
+		21EF35DE3277E9DF729579384309AC43 /* Pods-1945-shooting-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1945-shooting-game.debug.xcconfig"; sourceTree = "<group>"; };
+		230C48BD29668B5C8CD3E2C17BB32C0B /* IntroDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntroDataSource.swift; path = IntroScreen/Protocols/IntroDataSource.swift; sourceTree = "<group>"; };
+		27497996C37F8E08B992BCF9BF4E00BC /* Pods-1945-shooting-game-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-1945-shooting-game-Info.plist"; sourceTree = "<group>"; };
+		3C999B4B77249FF1F2CDFF60A229C911 /* IntroViewController+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntroViewController+Delegate.swift"; path = "IntroScreen/Components/Intro/IntroViewController+Delegate.swift"; sourceTree = "<group>"; };
+		4611C9096010DB3B52CD7D67B1FDCA70 /* IntroScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IntroScreen.release.xcconfig; sourceTree = "<group>"; };
+		4ED1C0C626558F56AD2CE55D467FAD9F /* DefaultIntroPageViewController+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DefaultIntroPageViewController+Layout.swift"; path = "IntroScreen/Components/DefaultIntroPage/DefaultIntroPageViewController+Layout.swift"; sourceTree = "<group>"; };
+		6053B2C2E2BAA7B50CE593658E5907D1 /* IntroViewController+ColorTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntroViewController+ColorTransition.swift"; path = "IntroScreen/Components/Intro/IntroViewController+ColorTransition.swift"; sourceTree = "<group>"; };
+		6A55CB0603CF1907854EF585995B9678 /* Pods-1945-shooting-game-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-1945-shooting-game-frameworks.sh"; sourceTree = "<group>"; };
+		6AF4541A693F231507413B60B47E1F6B /* IntroScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IntroScreen.debug.xcconfig; sourceTree = "<group>"; };
+		6B82EC1B5D05279D6B4CE84293A2E7F3 /* Pods-1945-shooting-game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-1945-shooting-game.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74DABD47E6C42BAB35315655B028AADA /* IntroViewController+MovingPages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntroViewController+MovingPages.swift"; path = "IntroScreen/Components/Intro/IntroViewController+MovingPages.swift"; sourceTree = "<group>"; };
+		7B0F85019E672B6A25E0023AB2BE5089 /* IntroViewController+ScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntroViewController+ScrollViewDelegate.swift"; path = "IntroScreen/Components/Intro/IntroViewController+ScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		7DA4D50E6E00384FAA4A14BAA7384F1E /* IntroScreen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IntroScreen-prefix.pch"; sourceTree = "<group>"; };
+		80CB5DCEE3E3A0B6BCF397B59F8FD909 /* IntroScreen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IntroScreen-Info.plist"; sourceTree = "<group>"; };
+		911B8291C1FAA331DF6A914D683B0D26 /* Pods-1945-shooting-game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-1945-shooting-game-dummy.m"; sourceTree = "<group>"; };
+		95102C226FDAD502D73FD5BC01E41B49 /* Pods_1945_shooting_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_1945_shooting_game.framework; path = "Pods-1945-shooting-game.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958017C8CC01759F0A763CEB74983A0B /* Pods-1945-shooting-game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-1945-shooting-game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B47EDF52F0B99C811A3E93D290CE15B /* DefaultIntroPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIntroPageViewController.swift; path = IntroScreen/Components/DefaultIntroPage/DefaultIntroPageViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEA34DBC28EB065987812E8A97FCBDD8 /* IntroViewController+Lifecycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntroViewController+Lifecycle.swift"; path = "IntroScreen/Components/Intro/IntroViewController+Lifecycle.swift"; sourceTree = "<group>"; };
+		B163D95C42027BAD5C06ECE4212DD2BD /* IntroViewController+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntroViewController+DataSource.swift"; path = "IntroScreen/Components/Intro/IntroViewController+DataSource.swift"; sourceTree = "<group>"; };
+		CD99E211F7257EFACBEF1B79DB6C22EE /* Pods-1945-shooting-game.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-1945-shooting-game.modulemap"; sourceTree = "<group>"; };
+		D2A3C7E28027BC8343975F928AC320F9 /* IntroScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IntroScreen.framework; path = IntroScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B6DB1B2290C4035DFAB72175579FED /* IntroScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IntroScreen-dummy.m"; sourceTree = "<group>"; };
+		E60C258E49FE3A9D8BAAF666FE3DEE92 /* Pods-1945-shooting-game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-1945-shooting-game-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD5F349E2352B14CA5AFDB938E726BE2 /* IntroScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IntroScreen-umbrella.h"; sourceTree = "<group>"; };
+		FD63A3E3BC11E308813BE10AD2911295 /* IntroScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IntroScreen.modulemap; sourceTree = "<group>"; };
+		FE9DBAC26669962C25D4DF783DC43ED7 /* IntroViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = IntroScreen/Components/Intro/IntroViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C20AECE5E3B9469608AD049F4B39D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C485A7B83767B3FFBBA8DB7665E078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFEBCAF44F8442DDD84EE8B718C327C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2E4D7FDA69A47CB7AC0A84B457A266 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261ACFFAD5A8D55B8C5E8892B66D9AD5 /* IntroScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9B47EDF52F0B99C811A3E93D290CE15B /* DefaultIntroPageViewController.swift */,
+				4ED1C0C626558F56AD2CE55D467FAD9F /* DefaultIntroPageViewController+Layout.swift */,
+				230C48BD29668B5C8CD3E2C17BB32C0B /* IntroDataSource.swift */,
+				11A90CD901F62AE22A6B23ABE91ABF67 /* IntroPageViewController.swift */,
+				FE9DBAC26669962C25D4DF783DC43ED7 /* IntroViewController.swift */,
+				6053B2C2E2BAA7B50CE593658E5907D1 /* IntroViewController+ColorTransition.swift */,
+				B163D95C42027BAD5C06ECE4212DD2BD /* IntroViewController+DataSource.swift */,
+				3C999B4B77249FF1F2CDFF60A229C911 /* IntroViewController+Delegate.swift */,
+				AEA34DBC28EB065987812E8A97FCBDD8 /* IntroViewController+Lifecycle.swift */,
+				74DABD47E6C42BAB35315655B028AADA /* IntroViewController+MovingPages.swift */,
+				7B0F85019E672B6A25E0023AB2BE5089 /* IntroViewController+ScrollViewDelegate.swift */,
+				7E174E4B4FC7E79D0BF2A11C5ADB153A /* Support Files */,
+			);
+			name = IntroScreen;
+			path = IntroScreen;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6514C411ED30F74364CE8B380D4E1F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261ACFFAD5A8D55B8C5E8892B66D9AD5 /* IntroScreen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E174E4B4FC7E79D0BF2A11C5ADB153A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD63A3E3BC11E308813BE10AD2911295 /* IntroScreen.modulemap */,
+				D4B6DB1B2290C4035DFAB72175579FED /* IntroScreen-dummy.m */,
+				80CB5DCEE3E3A0B6BCF397B59F8FD909 /* IntroScreen-Info.plist */,
+				7DA4D50E6E00384FAA4A14BAA7384F1E /* IntroScreen-prefix.pch */,
+				FD5F349E2352B14CA5AFDB938E726BE2 /* IntroScreen-umbrella.h */,
+				6AF4541A693F231507413B60B47E1F6B /* IntroScreen.debug.xcconfig */,
+				4611C9096010DB3B52CD7D67B1FDCA70 /* IntroScreen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IntroScreen";
+			sourceTree = "<group>";
+		};
+		7F921AF736A23A3DAD0CED827961A87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3C7E28027BC8343975F928AC320F9 /* IntroScreen.framework */,
+				95102C226FDAD502D73FD5BC01E41B49 /* Pods_1945_shooting_game.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F02F818295D6A89A01D39D5C583B957 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7DDFDC21853704270138A72D9D999 /* Pods-1945-shooting-game */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6514C411ED30F74364CE8B380D4E1F20 /* Pods */,
+				7F921AF736A23A3DAD0CED827961A87C /* Products */,
+				8F02F818295D6A89A01D39D5C583B957 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECD7DDFDC21853704270138A72D9D999 /* Pods-1945-shooting-game */ = {
+			isa = PBXGroup;
+			children = (
+				CD99E211F7257EFACBEF1B79DB6C22EE /* Pods-1945-shooting-game.modulemap */,
+				958017C8CC01759F0A763CEB74983A0B /* Pods-1945-shooting-game-acknowledgements.markdown */,
+				E60C258E49FE3A9D8BAAF666FE3DEE92 /* Pods-1945-shooting-game-acknowledgements.plist */,
+				911B8291C1FAA331DF6A914D683B0D26 /* Pods-1945-shooting-game-dummy.m */,
+				6A55CB0603CF1907854EF585995B9678 /* Pods-1945-shooting-game-frameworks.sh */,
+				27497996C37F8E08B992BCF9BF4E00BC /* Pods-1945-shooting-game-Info.plist */,
+				01A2B32DEBCA94FAD94194D4E6FA54BB /* Pods-1945-shooting-game-umbrella.h */,
+				21EF35DE3277E9DF729579384309AC43 /* Pods-1945-shooting-game.debug.xcconfig */,
+				6B82EC1B5D05279D6B4CE84293A2E7F3 /* Pods-1945-shooting-game.release.xcconfig */,
+			);
+			name = "Pods-1945-shooting-game";
+			path = "Target Support Files/Pods-1945-shooting-game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66AA20BF82114A8EE3C0643A16CD1603 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B50CB3C77696F9D38A00209C4430E1 /* Pods-1945-shooting-game-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86059E2EF5A5A3E5FD022C99A8076639 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C5A1CBBDEFDD339673788F13A6497B /* IntroScreen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD3F05E645C2E83B057FE06E922D12BD /* IntroScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A52C551106CBAA393CE2BE1489F27F0 /* Build configuration list for PBXNativeTarget "IntroScreen" */;
+			buildPhases = (
+				86059E2EF5A5A3E5FD022C99A8076639 /* Headers */,
+				17410F9CD5105253EEACBF853F90162F /* Sources */,
+				70C20AECE5E3B9469608AD049F4B39D1 /* Frameworks */,
+				01F5D8F081D8073AC5EBE433F2582317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntroScreen;
+			productName = IntroScreen;
+			productReference = D2A3C7E28027BC8343975F928AC320F9 /* IntroScreen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E69D38CBA9533D936B45ECCFA1031A55 /* Pods-1945-shooting-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C45A1B7F40BE2B069F943CE9851FBD4 /* Build configuration list for PBXNativeTarget "Pods-1945-shooting-game" */;
+			buildPhases = (
+				66AA20BF82114A8EE3C0643A16CD1603 /* Headers */,
+				E03F164534C4B38CB15B5892D722A745 /* Sources */,
+				7AFEBCAF44F8442DDD84EE8B718C327C /* Frameworks */,
+				28D7996EC47F901C987BDD1C04BE9794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F8E7EF1122EF99F8B5BFB92AE66E7B /* PBXTargetDependency */,
+			);
+			name = "Pods-1945-shooting-game";
+			productName = "Pods-1945-shooting-game";
+			productReference = 95102C226FDAD502D73FD5BC01E41B49 /* Pods_1945_shooting_game.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F921AF736A23A3DAD0CED827961A87C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3F05E645C2E83B057FE06E922D12BD /* IntroScreen */,
+				E69D38CBA9533D936B45ECCFA1031A55 /* Pods-1945-shooting-game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F5D8F081D8073AC5EBE433F2582317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D7996EC47F901C987BDD1C04BE9794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17410F9CD5105253EEACBF853F90162F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE7A49C8F3FB5E6C3729F9D3764A5EC /* DefaultIntroPageViewController+Layout.swift in Sources */,
+				5404A22DAD8F96478B07740C8C25B2C5 /* DefaultIntroPageViewController.swift in Sources */,
+				0EF7B21DA1A6928CEA3C59BD9B70C360 /* IntroDataSource.swift in Sources */,
+				3B5945124B314E5E69E1148C88C0ED2C /* IntroPageViewController.swift in Sources */,
+				B243D4AC992AF2E4904C0AAF46FAA285 /* IntroScreen-dummy.m in Sources */,
+				38771C837CBD6B2075663746F5DC214A /* IntroViewController+ColorTransition.swift in Sources */,
+				18A2182EFD933B3ABAAB08D323E344EE /* IntroViewController+DataSource.swift in Sources */,
+				1CDFA7E3917E6BB72407A11F31E44A75 /* IntroViewController+Delegate.swift in Sources */,
+				CFB4903E52838A089A1369D19D14BF1D /* IntroViewController+Lifecycle.swift in Sources */,
+				2A3F61FF3FC009D5BFFFD2CAEFE67C5B /* IntroViewController+MovingPages.swift in Sources */,
+				B2ACFB1992F51A0B7677E7256C617D23 /* IntroViewController+ScrollViewDelegate.swift in Sources */,
+				1B09577F3F157E84379B1873EE3F51D2 /* IntroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03F164534C4B38CB15B5892D722A745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AA18BAE8D07D23967BAEAC2EAC0F33 /* Pods-1945-shooting-game-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F8E7EF1122EF99F8B5BFB92AE66E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IntroScreen;
+			target = CD3F05E645C2E83B057FE06E922D12BD /* IntroScreen */;
+			targetProxy = 1E3EA084E8246679C02AB38CE8A339A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6678D64228E33A3E0196E49032AE2D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF4541A693F231507413B60B47E1F6B /* IntroScreen.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IntroScreen/IntroScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IntroScreen/IntroScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IntroScreen/IntroScreen.modulemap";
+				PRODUCT_MODULE_NAME = IntroScreen;
+				PRODUCT_NAME = IntroScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		994F2D811FD045384917026DCD7DB289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EF35DE3277E9DF729579384309AC43 /* Pods-1945-shooting-game.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-1945-shooting-game/Pods-1945-shooting-game-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1945-shooting-game/Pods-1945-shooting-game.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A93ED377F08B3FB34B45CED49DD5DA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4611C9096010DB3B52CD7D67B1FDCA70 /* IntroScreen.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IntroScreen/IntroScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IntroScreen/IntroScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IntroScreen/IntroScreen.modulemap";
+				PRODUCT_MODULE_NAME = IntroScreen;
+				PRODUCT_NAME = IntroScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9DE380A8B6C9829A9E5AC9E148D44FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B82EC1B5D05279D6B4CE84293A2E7F3 /* Pods-1945-shooting-game.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-1945-shooting-game/Pods-1945-shooting-game-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-1945-shooting-game/Pods-1945-shooting-game.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A52C551106CBAA393CE2BE1489F27F0 /* Build configuration list for PBXNativeTarget "IntroScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678D64228E33A3E0196E49032AE2D7A /* Debug */,
+				A93ED377F08B3FB34B45CED49DD5DA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C45A1B7F40BE2B069F943CE9851FBD4 /* Build configuration list for PBXNativeTarget "Pods-1945-shooting-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994F2D811FD045384917026DCD7DB289 /* Debug */,
+				B9DE380A8B6C9829A9E5AC9E148D44FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

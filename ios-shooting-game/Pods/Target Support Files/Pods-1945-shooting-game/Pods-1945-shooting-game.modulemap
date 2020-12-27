@@ -1,0 +1,6 @@
+framework module Pods_1945_shooting_game {
+  umbrella header "Pods-1945-shooting-game-umbrella.h"
+
+  export *
+  module * { export * }
+}
